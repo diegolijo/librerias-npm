@@ -8,6 +8,12 @@
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
+    "paths": {
+      "ionic-barcode-scanner": [
+        "dist/ionic-barcode-scanner/ionic-barcode-scanner",
+        "dist/ionic-barcode-scanner"
+      ]
+    },
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,
