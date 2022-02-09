@@ -1,4 +1,7 @@
 # IonicBarcodeScanner
 
-## intall 
-npm install ionic-barcode-scanner
+## install 
+
+ionic cordova plugin add barcode-scan
+npm install angular-barcode-scanner
+

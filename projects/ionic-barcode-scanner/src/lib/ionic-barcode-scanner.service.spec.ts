@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { ScannerProvider } from './ionic-barcode-scanner.service';
+import { BarcodeScanner } from './ionic-barcode-scanner.service';
 
 describe('ScannerProvider', () => {
-  let service: ScannerProvider;
+  let service: BarcodeScanner;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(ScannerProvider);
+    service = TestBed.inject(BarcodeScanner);
   });
 
   it('should be created', () => {
